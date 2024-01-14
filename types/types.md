@@ -40,6 +40,11 @@ print with %f
 `long longNumber = 123456789;`
 print with %ld
 
+### Unsigned
+
+`unsigned int = 1;`
+modifier for numbers that shows it will be a non-negative value
+
 ### Boolean
 
 `bool myBool = true`
