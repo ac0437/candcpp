@@ -50,6 +50,10 @@ modifier for numbers that shows it will be a non-negative value
 `bool myBool = true`
 print with %i or %d
 
+#### true vs false
+
+true returns 1 and false returns 0
+
 ### Arrays
 
 #### Declaring
@@ -66,8 +70,19 @@ print with %i or %d
 `size_t = sizeof(arr) / sizeof(arr[0])`;
 
 sizeof(arr) returns the zie of the whole array in btyes. If we divide by the bytes of a single member like in sizeof(arr[0]) we get the size
-print using zu
+print using
 
-#### looping
+### String
+
+Strings are char arrays
+string.h is the library with string methods such as `strlen` that returns the length of a string
+
+### Looping
 
 This is similar to a JS loop
+
+```
+  for(int i = 0; i < 10; ++i) {
+    // do something
+  }
+```
