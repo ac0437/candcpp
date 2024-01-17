@@ -49,3 +49,25 @@ modifier for numbers that shows it will be a non-negative value
 
 `bool myBool = true`
 print with %i or %d
+
+### Arrays
+
+#### Declaring
+
+`int arr[];`
+`int arr[] = {1,2,3,4}`
+
+#### Assigning
+
+`arr[0] = 1;`
+
+#### Size of array
+
+`size_t = sizeof(arr) / sizeof(arr[0])`;
+
+sizeof(arr) returns the zie of the whole array in btyes. If we divide by the bytes of a single member like in sizeof(arr[0]) we get the size
+print using zu
+
+#### looping
+
+This is similar to a JS loop
