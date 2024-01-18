@@ -24,5 +24,9 @@ int main()
   printf("Size of numbers: %zu \n", sizeof(numbers) / sizeof(numbers[0]));
   printf("Size of numbers literal: %zu \n", sizeof(numbersLiteral) / sizeof(numbersLiteral[0]));
 
+  int arrayOfArrays[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+  printf("One: %d\n", arrayOfArrays[0][0]);
+
   return 0;
 }
